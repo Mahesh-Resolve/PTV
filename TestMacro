@@ -1,0 +1,13 @@
+Try
+Begin
+
+  Var.A := 10
+  Var.B := 5
+  Std.MsgBox(Messsage := "Sum of A and B is " | Var.A + Var.B)
+  
+End
+
+On Failure
+Begin
+  Std.MsgBox(Message := FailureMessage)  
+End
