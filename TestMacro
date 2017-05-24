@@ -5,6 +5,8 @@ Begin
   Var.B := 5
   Std.MsgBox(Messsage := "Sum of A and B is " | Var.A + Var.B)
   
+  Std.MsgBox(Messsage := "Difference between A and B is " | Var.A - Var.B)
+  
 End
 
 On Failure
